@@ -1,84 +1,23 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- displays site properly based on user's device -->
-
-    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap"
-      rel="stylesheet" />
-
-    <title>Frontend Mentor | QR code component</title>
-
-    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-    <style type="text/css">
-      body {
-        background-color: aliceblue;
-        font-family: "Outfit", Verdana;
-      }
-
-      .attribution {
-        font-size: 11px;
-        text-align: center;
-      }
-
-      .attribution a {
-        color: hsl(228, 45%, 44%);
-      }
-
-      .container {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        max-width: 200px;
-        height: 100vh;
-        margin: auto;
-      }
-
-      img {
-        width: 200px;
-        border-radius: 10px;
-      }
-
-      .card {
-        background: white;
-        padding: 8px;
-        border-radius: 10px;
-      }
-
-      h4 {
-        text-align: center;
-        font-weight: 700;
-      }
-
-      p {
-        text-align: center;
-        font-size: 12px;
-        font-weight: 400;
-        color: gray;
-      }
-    </style>
+    <title>Qr code element</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="images/favicon-32x32.png" type="image/x-icon" />
   </head>
   <body>
-    <div class="container">
-      <div class="card">
-        <img src="images/image-qr-code.png" alt="qrcode" />
-        <h4>Improve your front-end skills by building projects</h4>
+    <main>
+      <section class="qr-code">
+        <img src="images/image-qr-code.png" alt="qr code image" />
+      </section>
+      <section class="content">
+        <h2>Improve yout front-end skills by building projects</h2>
         <p>
           Scan the QR code to visit Frontend Mentor and take your coding skills to the next level
         </p>
-      </div>
-    </div>
-
-    <div class="attribution">
-      Challenge by
-      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
-      Coded by <a href="#">Akiza</a>.
-    </div>
+      </section>
+    </main>
   </body>
 </html>
