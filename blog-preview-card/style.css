@@ -46,7 +46,7 @@ main {
 }
 
 .content p {
-  font-size: 12px;
+  font-size: 14px;
   color: hsl(0, 0%, 42%);
   padding: 14px 0px;
   width: 270px;
@@ -57,13 +57,13 @@ main {
   padding: 6px 10px;
   margin: 10px 0px 0px 4px;
   border-radius: 4px;
-  font-size: 11px;
+  font-size: 16px;
   font-weight: 800;
 }
 
 .pspan {
   margin: 8px 0px;
-  font-size: 12px;
+  font-size: 14px;
   font-weight: 500;
 }
 
